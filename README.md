@@ -40,6 +40,21 @@ RecruitManage活动招募
 AssociationManage协会活动
 MoralManage德育分管理
 UserManage用户管理
+
+
+根据SOIP相关内容，系统中的文本信息定义如下：
+
+1类信息定义为：信息公开
+2类信息定义为：快捷链接
+3类信息定义为：关于我们
+
+其中必须要含有的是：type_a~type_e分别为：
+A类：生活意见反馈
+B类：校园建设反馈
+C类：学生工作建议
+D类：学生干部违纪举报
+E类：校园行政事务提问
+
 ```
 
 ## Project setup

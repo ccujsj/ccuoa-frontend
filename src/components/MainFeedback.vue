@@ -27,7 +27,7 @@ desc: 主要反馈组件
 
   </el-collapse-item>
   <el-collapse-item title="学生干部违纪举报" name="4">
-    <el-link type="primary" :href="this.type_D">举报班委、团支部成员、学生会、团委和其它学生组织骨干成员的作风问题和工作问题。</el-link>
+    <el-link type="primary" :href="this.type_D">举报班委、团支部成员、学生会、团委和其它学生组织骨干成员的作风问题、态度问题和工作问题。</el-link>
 
   </el-collapse-item>
   <el-collapse-item title="校园行政事务提问" name="5">

@@ -2,6 +2,7 @@
 node_modules
 /dist
 
+README.pdf
 
 # local env files
 .env.local
