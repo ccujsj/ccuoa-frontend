@@ -119,6 +119,8 @@ export default {
             // first get basic info
             axios.get(baseurl + '/api/v1/get/moral/score/id?uid=' + this.inputText)
             .then(response => {
+                response.data.stu_score += 80.0;  // according to the policy file, student's default score is 80.0
+                this.basicData.pop()
                 this.basicData.push(response.data)
             })
             .catch(error => {
